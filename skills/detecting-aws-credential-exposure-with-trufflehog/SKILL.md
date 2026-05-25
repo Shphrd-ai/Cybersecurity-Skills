@@ -54,7 +54,11 @@ Install TruffleHog v3 and verify it can detect the AWS credential patterns.
 pip install trufflehog
 
 # Or install from binary release
-curl -sSfL https://raw.githubusercontent.com/trufflesecurity/trufflehog/main/scripts/install.sh | sh -s -- -b /usr/local/bin
+# SECURITY: Pin to specific release instead of main branch
+# Recommended pinned approach (replace v3.x.x with desired version):
+curl -sSfL https://github.com/trufflesecurity/trufflehog/releases/download/v3.82.6/trufflehog_3.82.6_linux_amd64.tar.gz -o trufflehog.tar.gz
+# Verify checksum from https://github.com/trufflesecurity/trufflehog/releases
+tar xzf trufflehog.tar.gz && sudo mv trufflehog /usr/local/bin/ -s -- -b /usr/local/bin
 
 # Verify installation
 trufflehog --version

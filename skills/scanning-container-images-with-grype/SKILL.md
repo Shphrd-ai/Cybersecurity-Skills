@@ -38,7 +38,11 @@ Grype is an open-source vulnerability scanner from Anchore that inspects contain
 ## Prerequisites
 
 - Docker or Podman installed
-- Grype CLI installed (`curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b /usr/local/bin`)
+- Grype CLI installed (`# SECURITY: Pin to specific release instead of main branch installer
+# Recommended: download from pinned release (update version as needed)
+curl -sSfL https://github.com/anchore/grype/releases/download/v0.88.0/grype_0.88.0_linux_amd64.tar.gz -o grype.tar.gz
+# Verify checksum from https://github.com/anchore/grype/releases
+tar xzf grype.tar.gz && sudo mv grype /usr/local/bin/`)
 - Syft CLI (optional, for SBOM generation)
 - Network access to pull vulnerability databases
 
@@ -48,7 +52,11 @@ Grype is an open-source vulnerability scanner from Anchore that inspects contain
 
 ```bash
 # Install via script
-curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b /usr/local/bin
+# SECURITY: Pin to specific release instead of main branch installer
+# Recommended: download from pinned release (update version as needed)
+curl -sSfL https://github.com/anchore/grype/releases/download/v0.88.0/grype_0.88.0_linux_amd64.tar.gz -o grype.tar.gz
+# Verify checksum from https://github.com/anchore/grype/releases
+tar xzf grype.tar.gz && sudo mv grype /usr/local/bin/
 
 # Verify installation
 grype version

@@ -1,4 +1,4 @@
-# Contributing to Anthropic-Cybersecurity-Skills
+# Contributing to Cybersecurity-Skills
 
 ## How to add a new skill
 

@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Anthropic Cybersecurity Skills" width="100%">
+  <img src="assets/banner.png" alt="CyberShepherd Cybersecurity Skills" width="100%">
 </p>
 
 <div align="center">
 
-#  Anthropic Cybersecurity Skills
+#  CyberShepherd Cybersecurity Skills
 
 ### The largest open-source cybersecurity skills library for AI agents
 
@@ -14,9 +14,9 @@
 [![Frameworks](https://img.shields.io/badge/frameworks-5-orange?style=flat-square)](#five-frameworks-one-skill-library)
 [![Domains](https://img.shields.io/badge/domains-26-9cf?style=flat-square)](#whats-inside--26-security-domains)
 [![Platforms](https://img.shields.io/badge/platforms-26%2B-blueviolet?style=flat-square)](#compatible-platforms)
-[![GitHub stars](https://img.shields.io/github/stars/mukul975/Anthropic-Cybersecurity-Skills?style=flat-square)](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/mukul975/Anthropic-Cybersecurity-Skills?style=flat-square)](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/network/members)
-[![Last Commit](https://img.shields.io/github/last-commit/mukul975/Anthropic-Cybersecurity-Skills?style=flat-square)](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/commits/main)
+[![GitHub stars](https://img.shields.io/github/stars/Shphrd-ai/Cybersecurity-Skills?style=flat-square)](https://github.com/Shphrd-ai/Cybersecurity-Skills/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Shphrd-ai/Cybersecurity-Skills?style=flat-square)](https://github.com/Shphrd-ai/Cybersecurity-Skills/network/members)
+[![Last Commit](https://img.shields.io/github/last-commit/Shphrd-ai/Cybersecurity-Skills?style=flat-square)](https://github.com/Shphrd-ai/Cybersecurity-Skills/commits/main)
 [![agentskills.io](https://img.shields.io/badge/standard-agentskills.io-ff6600?style=flat-square)](https://agentskills.io)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 [![Playground](https://img.shields.io/badge/Playground-Casky.ai-blue)](https://casky.ai/?utm_source=github&utm_medium=readme&utm_campaign=cohort_launch#waitlist)
@@ -61,11 +61,11 @@ No other open-source skills library maps every skill to all five frameworks.  On
 
 ```bash
 # Option 1: npx (recommended)
-npx skills add mukul975/Anthropic-Cybersecurity-Skills
+npx skills add Shphrd-ai/Cybersecurity-Skills
 
 # Option 2: Git clone
-git clone https://github.com/mukul975/Anthropic-Cybersecurity-Skills.git
-cd Anthropic-Cybersecurity-Skills
+git clone https://github.com/Shphrd-ai/Cybersecurity-Skills.git
+cd Cybersecurity-Skills
 ```
 
 Works immediately with Claude Code, GitHub Copilot, OpenAI Codex CLI, Cursor, Gemini CLI, and any [agentskills.io](https://agentskills.io)-compatible platform. 
@@ -104,7 +104,7 @@ The cybersecurity workforce gap hit **4.8 million unfilled roles** globally in 2
 
 Existing security tool repos give you wordlists, payloads, or exploit code. None of them give an AI agent the structured decision-making workflow a senior analyst follows: when to use each technique, what prerequisites to check, how to execute step-by-step, and how to verify results. That is the gap this project fills.
 
-**Anthropic Cybersecurity Skills** is not a collection of scripts or checklists. It is an **AI-native knowledge base** built from the ground up for the agentskills.io standard  — YAML frontmatter for sub-second discovery, structured Markdown for step-by-step execution, and reference files for deep technical context.  Every skill encodes real practitioner workflows, not generated summaries. 
+**CyberShepherd Cybersecurity Skills** is not a collection of scripts or checklists. It is an **AI-native knowledge base** built from the ground up for the agentskills.io standard  — YAML frontmatter for sub-second discovery, structured Markdown for step-by-step execution, and reference files for deep technical context.  Every skill encodes real practitioner workflows, not generated summaries. 
 
 ## What's inside — 26 security domains
 
@@ -243,7 +243,7 @@ Frontmatter fields: `name` (kebab-case, 1–64 chars), `description` (keyword-ri
 | Exfiltration | TA0010 | Strong | DNS exfiltration, DLP controls, data loss detection |
 | Impact | TA0040 | Strong | Ransomware defense, encryption analysis, recovery |
 
-An **ATT&CK Navigator layer file** is included in the [v1.0.0 release assets](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases/tag/v1.0.0) for visual coverage mapping. 
+An **ATT&CK Navigator layer file** is included in the [v1.0.0 release assets](https://github.com/Shphrd-ai/Cybersecurity-Skills/releases/tag/v1.0.0) for visual coverage mapping. 
 
 > **Note:** ATT&CK v19 lands April 28, 2026 — splitting Defense Evasion (TA0005) into two new tactics: *Stealth* and *Impair Defenses*.  Skill mappings will be updated in a forthcoming release.
 
@@ -320,11 +320,11 @@ All platforms that support the [agentskills.io](https://agentskills.io) standard
 
 ## Star history
 
-<a href="https://star-history.com/#mukul975/Anthropic-Cybersecurity-Skills&Date">
+<a href="https://star-history.com/#Shphrd-ai/Cybersecurity-Skills&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=mukul975/Anthropic-Cybersecurity-Skills&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=mukul975/Anthropic-Cybersecurity-Skills&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=mukul975/Anthropic-Cybersecurity-Skills&type=Date" width="100%" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Shphrd-ai/Cybersecurity-Skills&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Shphrd-ai/Cybersecurity-Skills&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Shphrd-ai/Cybersecurity-Skills&type=Date" width="100%" />
  </picture>
 </a>
 
@@ -332,9 +332,9 @@ All platforms that support the [agentskills.io](https://agentskills.io) standard
 
 | Version | Date | Highlights |
 |---|---|---|
-| [v1.0.0](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases/tag/v1.0.0) | March 11, 2026 | 734 skills · 26 domains · MITRE ATT&CK + NIST CSF 2.0 mapping · ATT&CK Navigator layer |
+| [v1.0.0](https://github.com/Shphrd-ai/Cybersecurity-Skills/releases/tag/v1.0.0) | March 11, 2026 | 734 skills · 26 domains · MITRE ATT&CK + NIST CSF 2.0 mapping · ATT&CK Navigator layer |
 
-Skills have continued to grow on `main` since v1.0.0 — the library now contains **754 skills** with **5-framework mapping**  (MITRE ATLAS, D3FEND, and NIST AI RMF added post-release).  Check [Releases](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases) for the latest tagged version.
+Skills have continued to grow on `main` since v1.0.0 — the library now contains **754 skills** with **5-framework mapping**  (MITRE ATLAS, D3FEND, and NIST AI RMF added post-release).  Check [Releases](https://github.com/Shphrd-ai/Cybersecurity-Skills/releases) for the latest tagged version.
 
 ## Contributing
 
@@ -344,16 +344,16 @@ This project grows through community contributions. Here is how to get involved:
 
 **Improve existing skills** — Add framework mappings, fix workflows, update tool references, or contribute scripts and templates.
 
-**Report issues** — Found an inaccurate procedure or broken script? [Open an issue](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/issues).
+**Report issues** — Found an inaccurate procedure or broken script? [Open an issue](https://github.com/Shphrd-ai/Cybersecurity-Skills/issues).
 
-Every PR is reviewed for technical accuracy and agentskills.io standard compliance within 48 hours.  Check [good first issues](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) for a starting point.
+Every PR is reviewed for technical accuracy and agentskills.io standard compliance within 48 hours.  Check [good first issues](https://github.com/Shphrd-ai/Cybersecurity-Skills/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) for a starting point.
 
 This project follows the [Contributor Covenant](https://www.contributor-covenant.org/). By participating, you agree to uphold this code. 
 
 ## Community
 
-💬 [Discussions](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/discussions) — Questions, ideas, and roadmap conversations
-🐛 [Issues](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/issues) — Bug reports and feature requests
+💬 [Discussions](https://github.com/Shphrd-ai/Cybersecurity-Skills/discussions) — Questions, ideas, and roadmap conversations
+🐛 [Issues](https://github.com/Shphrd-ai/Cybersecurity-Skills/issues) — Bug reports and feature requests
 🔒 [Security Policy](SECURITY.md) — Responsible disclosure process (48-hour acknowledgment) 
 
 ## Citation
@@ -363,9 +363,9 @@ If you use this project in research or publications:
 ```bibtex
 @software{anthropic_cybersecurity_skills,
   author       = {Jangra, Mahipal},
-  title        = {Anthropic Cybersecurity Skills},
+  title        = {CyberShepherd Cybersecurity Skills},
   year         = {2026},
-  url          = {https://github.com/mukul975/Anthropic-Cybersecurity-Skills},
+  url          = {https://github.com/Shphrd-ai/Cybersecurity-Skills},
   license      = {Apache-2.0},
   note         = {754 structured cybersecurity skills for AI agents,
                   mapped to MITRE ATT\&CK, NIST CSF 2.0, MITRE ATLAS,
@@ -383,8 +383,8 @@ This project is licensed under the [Apache License 2.0](LICENSE). You are free t
 
 **If this project helps your security work, consider giving it a ⭐**
 
-[⭐ Star](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/stargazers) · [🍴 Fork](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/fork) · [💬 Discuss](https://github.com/mukul975/Anthropic-Cybersecurity-Skills/discussions) · [📝 Contribute](CONTRIBUTING.md)
+[⭐ Star](https://github.com/Shphrd-ai/Cybersecurity-Skills/stargazers) · [🍴 Fork](https://github.com/Shphrd-ai/Cybersecurity-Skills/fork) · [💬 Discuss](https://github.com/Shphrd-ai/Cybersecurity-Skills/discussions) · [📝 Contribute](CONTRIBUTING.md)
 
-Community project by [@mukul975](https://github.com/mukul975). Not affiliated with Anthropic PBC.
+Maintained by [CyberShepherd](https://shphrd.ai). Original work by [@mukul975](https://github.com/mukul975) (Apache 2.0).
 
 </div>

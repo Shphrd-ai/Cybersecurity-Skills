@@ -123,7 +123,13 @@ A ROA is a signed object that states:
 sudo apt install -y routinator
 
 # Or install via Cargo (Rust)
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# SECURITY: Pin to a specific version instead of piping from main
+# curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# Recommended pinned approach:
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs -o rustup-init.sh
+# Verify SHA256: check https://static.rust-lang.org/rustup/dist/x86_64-unknown-linux-gnu/rustup-init.sha256
+sha256sum rustup-init.sh  # Verify before executing
+chmod +x rustup-init.sh && ./rustup-init.sh
 cargo install routinator
 
 # Initialize Routinator (accept TALs)

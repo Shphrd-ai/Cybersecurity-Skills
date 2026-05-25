@@ -75,7 +75,12 @@ Tailscale is a zero trust mesh VPN built on WireGuard that creates encrypted pee
 
 ```bash
 # Add Tailscale repository and install
-curl -fsSL https://tailscale.com/install.sh | sh
+# SECURITY: Pin to package repository instead of piping installer from web
+# Recommended: use official apt/rpm repos for verifiable installs
+# Ubuntu/Debian:
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/focal.gpg | sudo gpg --dearmor -o /usr/share/keyrings/tailscale-archive-keyring.gpg
+curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/focal.list | sudo tee /etc/apt/sources.list.d/tailscale.list
+sudo apt-get update && sudo apt-get install tailscale
 
 # Start Tailscale and authenticate
 sudo tailscale up

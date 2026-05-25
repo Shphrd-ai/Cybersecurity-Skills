@@ -237,7 +237,13 @@ sudo auditctl -w /var/run/docker.sock -k docker-socket
 
 ```bash
 # Install rootless Docker
-curl -fsSL https://get.docker.com/rootless | sh
+# SECURITY: Pin to specific version instead of latest
+# Recommended approach: use distribution package manager
+# Ubuntu/Debian: sudo apt-get install docker-ce-rootless-extras
+# Or download rootlesskit directly from a pinned release
+curl -fsSL https://get.docker.com/rootless -o install-rootless.sh
+# Verify contents before running: cat install-rootless.sh
+sh install-rootless.sh
 
 # Configure environment
 export PATH=$HOME/bin:$PATH

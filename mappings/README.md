@@ -1,6 +1,6 @@
-# MITRE ATT&CK Navigator Layer - Anthropic Cybersecurity Skills
+# MITRE ATT&CK Navigator Layer - CyberShepherd Cybersecurity Skills
 
-This directory contains a MITRE ATT&CK Navigator layer file that maps the coverage of the Anthropic Cybersecurity Skills repository against the ATT&CK Enterprise matrix.
+This directory contains a MITRE ATT&CK Navigator layer file that maps the coverage of the CyberShepherd Cybersecurity Skills repository against the ATT&CK Enterprise matrix.
 
 ## Files
 

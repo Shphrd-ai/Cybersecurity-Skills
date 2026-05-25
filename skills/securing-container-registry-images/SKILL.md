@@ -40,9 +40,13 @@ nist_csf:
 ## Prerequisites
 
 - Trivy installed (`brew install trivy` or `apt install trivy`)
-- Grype installed (`curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh`)
+- Grype installed (`# SECURITY: Pin to specific release instead of main branch installer
+curl -sSfL https://github.com/anchore/grype/releases/download/v0.88.0/grype_0.88.0_linux_amd64.tar.gz -o grype.tar.gz
+tar xzf grype.tar.gz && sudo mv grype /usr/local/bin/`)
 - Cosign installed for image signing (`go install github.com/sigstore/cosign/v2/cmd/cosign@latest`)
-- Syft installed for SBOM generation (`curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh`)
+- Syft installed for SBOM generation (`# SECURITY: Pin to specific release instead of main branch installer
+curl -sSfL https://github.com/anchore/syft/releases/download/v1.20.0/syft_1.20.0_linux_amd64.tar.gz -o syft.tar.gz
+tar xzf syft.tar.gz && sudo mv syft /usr/local/bin/`)
 - Container registry access (ECR, ACR, GCR, or private registry)
 
 ## Workflow

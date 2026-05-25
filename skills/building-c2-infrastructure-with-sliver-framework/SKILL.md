@@ -74,7 +74,12 @@ Sliver is an open-source, cross-platform adversary emulation framework developed
 2. Harden the OS: disable SSH password auth, configure UFW/iptables, install fail2ban
 3. Install Sliver using the official install script:
    ```bash
-   curl https://sliver.sh/install | sudo bash
+   # SECURITY: Pin to specific release instead of latest installer
+# Download from pinned GitHub release:
+curl -fsSL https://github.com/BishopFox/sliver/releases/download/v1.5.42/sliver-server_linux -o sliver-server
+# Verify SHA256 from https://github.com/BishopFox/sliver/releases/tag/v1.5.42
+sha256sum sliver-server  # Verify before executing
+sudo install -m 755 sliver-server /usr/local/bin/
    ```
 4. Start the Sliver server daemon:
    ```bash

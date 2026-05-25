@@ -129,7 +129,10 @@ kubectl logs -l app=kube-bench
 
 ```bash
 # Install kubescape
-curl -s https://raw.githubusercontent.com/kubescape/kubescape/master/install.sh | /bin/bash
+# SECURITY: Pin to specific release instead of master branch installer
+curl -fsSL https://github.com/kubescape/kubescape/releases/download/v3.0.21/kubescape-linux-amd64 -o kubescape
+# Verify checksum from https://github.com/kubescape/kubescape/releases
+chmod +x kubescape && sudo mv kubescape /usr/local/bin/
 
 # Scan against NSA/CISA hardening guide
 kubescape scan framework nsa

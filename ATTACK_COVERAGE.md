@@ -505,5 +505,5 @@ GenAI-specific subcategories applied: GOVERN-6.1, GOVERN-6.2 (responsible deploy
 ---
 
 <p align="center">
-  <sub>Part of <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills">Anthropic Cybersecurity Skills</a> — 753+ open-source cybersecurity skills for AI agents</sub>
+  <sub>Part of <a href="https://github.com/Shphrd-ai/Cybersecurity-Skills">CyberShepherd Cybersecurity Skills</a> — 753+ open-source cybersecurity skills for AI agents</sub>
 </p>
